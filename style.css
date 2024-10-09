@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007BFF; /* Синій фон */
+    overflow: hidden; /* Сховати прокрутку */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white; /* Білий текст */
+    font-size: 5rem; /* Розмір шрифту */
+    cursor: pointer; /* Курсор при наведенні */
+}
+
+.dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: yellow; /* Жовта точка */
+    border-radius: 50%; /* Кругла форма */
+    pointer-events: none; /* Ігнорування кліків на точках */
+}
